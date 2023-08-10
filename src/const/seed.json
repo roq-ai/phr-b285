@@ -1,0 +1,2492 @@
+[
+  {
+    "patient": [
+      {
+        "id": "85682615-a075-4391-b306-6124f2bf62e5",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T20:07:07.006Z",
+        "updated_at": "2023-08-09T22:48:06.971Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d26f21d-db33-426f-a6fa-8e46dce2de4b",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T09:28:54.815Z",
+        "updated_at": "2023-08-09T20:05:28.990Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e50971fe-bdfb-4803-8910-f424cd76a0bb",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T06:25:16.502Z",
+        "updated_at": "2023-08-10T10:25:38.797Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64e05281-d722-4e59-b081-7d1520acd705",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T01:28:22.543Z",
+        "updated_at": "2023-08-10T11:32:42.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7d519a0-a8ca-42ba-9cf0-8b46f02f9fbc",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T05:36:32.909Z",
+        "updated_at": "2023-08-09T23:12:20.797Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "f7e70ecc-e692-4d27-984e-da22f14dc908",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-09T16:40:48.045Z",
+        "updated_at": "2023-08-10T04:24:26.484Z",
+        "patient_id": "4d26f21d-db33-426f-a6fa-8e46dce2de4b"
+      },
+      {
+        "id": "fcbc8a77-7c2c-4656-82d3-70c625ec8bd9",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-09T20:06:40.262Z",
+        "updated_at": "2023-08-10T10:17:03.535Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "b22fe44d-eb6f-4070-a25e-effc676c15ae",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-09T18:09:44.228Z",
+        "updated_at": "2023-08-10T11:04:31.111Z",
+        "patient_id": "85682615-a075-4391-b306-6124f2bf62e5"
+      },
+      {
+        "id": "9d409770-28c7-4bfc-9e85-8aae3bbd7986",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-09T12:42:04.868Z",
+        "updated_at": "2023-08-09T14:15:33.753Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "1a035987-843d-4d42-99c1-84e266efc582",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-10T02:18:43.398Z",
+        "updated_at": "2023-08-10T06:44:04.545Z",
+        "patient_id": "e50971fe-bdfb-4803-8910-f424cd76a0bb"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "e5fd6b55-84f2-4f63-8898-a8e6697d263d",
+        "record": "Patient history",
+        "created_at": "2023-08-10T02:50:58.379Z",
+        "updated_at": "2023-08-09T17:05:09.569Z",
+        "patient_id": "85682615-a075-4391-b306-6124f2bf62e5"
+      },
+      {
+        "id": "07bfaea1-554b-40fb-8ddf-00b393f1b695",
+        "record": "Lab test results",
+        "created_at": "2023-08-09T19:58:05.847Z",
+        "updated_at": "2023-08-09T22:35:18.719Z",
+        "patient_id": "e50971fe-bdfb-4803-8910-f424cd76a0bb"
+      },
+      {
+        "id": "ff7911da-b84b-42c3-8ee3-e2506de95fd8",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-09T15:23:49.489Z",
+        "updated_at": "2023-08-09T21:46:58.014Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "3f660e18-4798-48d6-be19-337c19db4a0a",
+        "record": "Treatment plan",
+        "created_at": "2023-08-10T06:10:28.344Z",
+        "updated_at": "2023-08-10T11:34:19.871Z",
+        "patient_id": "e50971fe-bdfb-4803-8910-f424cd76a0bb"
+      },
+      {
+        "id": "1a181b7d-b8f2-4f10-acc7-3197257ad5d7",
+        "record": "Surgical notes",
+        "created_at": "2023-08-10T04:07:06.324Z",
+        "updated_at": "2023-08-09T17:42:02.597Z",
+        "patient_id": "a7d519a0-a8ca-42ba-9cf0-8b46f02f9fbc"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "cbadfc27-dcbc-4eb3-bf5f-ed6ae528a006",
+        "result": "Blood test",
+        "created_at": "2023-08-09T20:55:26.154Z",
+        "updated_at": "2023-08-10T07:31:51.464Z",
+        "patient_id": "85682615-a075-4391-b306-6124f2bf62e5"
+      },
+      {
+        "id": "970c7af5-2b9a-4abb-a987-d421c95929ab",
+        "result": "Urine analysis",
+        "created_at": "2023-08-10T02:00:13.211Z",
+        "updated_at": "2023-08-10T07:00:19.746Z",
+        "patient_id": "85682615-a075-4391-b306-6124f2bf62e5"
+      },
+      {
+        "id": "d55e6ad0-4f4e-4498-82e9-a72989bf6fe8",
+        "result": "X-ray report",
+        "created_at": "2023-08-10T02:14:27.718Z",
+        "updated_at": "2023-08-10T10:17:47.892Z",
+        "patient_id": "a7d519a0-a8ca-42ba-9cf0-8b46f02f9fbc"
+      },
+      {
+        "id": "ebcb0044-006a-45ba-b75f-4a5838c46dca",
+        "result": "MRI scan",
+        "created_at": "2023-08-10T02:11:08.224Z",
+        "updated_at": "2023-08-09T23:35:26.959Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "4d6b9472-6de9-45b2-ac81-37725e7f7547",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-10T05:50:30.830Z",
+        "updated_at": "2023-08-10T02:20:37.128Z",
+        "patient_id": "85682615-a075-4391-b306-6124f2bf62e5"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "6f85ba36-9b54-41d6-85c5-27084efa7574",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-09T13:40:40.009Z",
+        "updated_at": "2023-08-10T03:12:24.693Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "0d64930b-6ef4-42a0-8ecd-684744b6e221",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "created_at": "2023-08-10T07:09:18.152Z",
+        "updated_at": "2023-08-10T08:09:31.010Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "99fdd0b6-d09d-4813-a621-f83c4eb75d7b",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-09T20:03:25.182Z",
+        "updated_at": "2023-08-09T13:59:15.061Z",
+        "patient_id": "64e05281-d722-4e59-b081-7d1520acd705"
+      },
+      {
+        "id": "b433cb1d-7419-40af-824d-cc9a43a17df5",
+        "insurance_provider": "Sunrise Healthcare",
+        "policy_number": "321654987",
+        "created_at": "2023-08-09T14:47:04.979Z",
+        "updated_at": "2023-08-09T17:59:15.721Z",
+        "patient_id": "4d26f21d-db33-426f-a6fa-8e46dce2de4b"
+      },
+      {
+        "id": "be05fe12-6a1d-4a11-908e-0e2477b52c43",
+        "insurance_provider": "National Assurance",
+        "policy_number": "789123456",
+        "created_at": "2023-08-09T13:32:30.001Z",
+        "updated_at": "2023-08-09T20:59:44.588Z",
+        "patient_id": "e50971fe-bdfb-4803-8910-f424cd76a0bb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "161426d4-7696-43ef-859e-6c2352ec77a8",
+        "email": "Daren.Kilback@yahoo.com",
+        "firstName": "Dianna",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae2e1372-9af8-4764-82df-3e715674a1e2",
+        "email": "Aubrey.Spinka-Rolfson@yahoo.com",
+        "firstName": "Carmel",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/382.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cab86232-ba4c-4121-a049-ff7c1d1688a0",
+        "email": "Assunta.Green@hotmail.com",
+        "firstName": "Brad",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34180081",
+        "tenantId": null
+      },
+      {
+        "reference": "7a756dd6-840e-4335-b042-344a2d42f5a5",
+        "email": "Modesta49@gmail.com",
+        "firstName": "Gust",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61664239",
+        "tenantId": null
+      },
+      {
+        "reference": "a2b42530-8c46-4971-9cfb-e871ddf68ef8",
+        "email": "Kelly.Wiegand38@gmail.com",
+        "firstName": "Alverta",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4924587",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "9d24a21a-3bce-438a-bdea-bb0182dc12fe",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T12:23:00.878Z",
+        "updated_at": "2023-08-10T08:30:53.266Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ccd057b-d5c7-4dc9-aa2b-b97be953f82f",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T13:52:21.281Z",
+        "updated_at": "2023-08-10T04:59:42.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bd24e35-76b2-4245-8504-d0186886d4aa",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T19:11:31.233Z",
+        "updated_at": "2023-08-10T05:59:37.621Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "094e8a1a-e103-4c8a-b50c-2b868473c978",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T00:08:41.289Z",
+        "updated_at": "2023-08-10T07:23:43.630Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40f99fbf-98b3-43bc-bbfa-f1f5133d530b",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T00:11:19.650Z",
+        "updated_at": "2023-08-09T15:28:09.222Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "9d6c4397-26de-4990-8265-4e57a59e39f9",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-10T01:36:22.064Z",
+        "updated_at": "2023-08-09T13:16:33.618Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      },
+      {
+        "id": "8d18a194-d865-4761-9692-4adffa903ea9",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-10T12:02:31.877Z",
+        "updated_at": "2023-08-10T07:04:52.581Z",
+        "patient_id": "3bd24e35-76b2-4245-8504-d0186886d4aa"
+      },
+      {
+        "id": "702e0518-63f5-435d-8510-04fe0196a215",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-10T03:48:01.365Z",
+        "updated_at": "2023-08-09T18:40:03.613Z",
+        "patient_id": "3bd24e35-76b2-4245-8504-d0186886d4aa"
+      },
+      {
+        "id": "c8393317-1ce9-4ede-9e3a-a4f329f40fb1",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-09T21:57:45.401Z",
+        "updated_at": "2023-08-10T10:49:23.872Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      },
+      {
+        "id": "6bf4b349-78c6-4612-805d-18dc084f2c36",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-09T21:32:42.009Z",
+        "updated_at": "2023-08-09T19:03:46.983Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "0ce45bcf-c3dc-4e03-acbd-1580e45458d1",
+        "record": "Patient history",
+        "created_at": "2023-08-10T06:30:17.518Z",
+        "updated_at": "2023-08-09T13:33:39.912Z",
+        "patient_id": "40f99fbf-98b3-43bc-bbfa-f1f5133d530b"
+      },
+      {
+        "id": "1db8b589-d391-4fc4-9268-92e9f611b80d",
+        "record": "Lab test results",
+        "created_at": "2023-08-09T19:36:59.047Z",
+        "updated_at": "2023-08-09T17:50:12.666Z",
+        "patient_id": "9d24a21a-3bce-438a-bdea-bb0182dc12fe"
+      },
+      {
+        "id": "da275b9b-b930-4d3e-8f6a-64e71c9b1462",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-10T02:37:58.528Z",
+        "updated_at": "2023-08-10T07:51:16.592Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      },
+      {
+        "id": "499d6cc4-025f-4ddc-9141-191313c6aba7",
+        "record": "Treatment plan",
+        "created_at": "2023-08-09T13:17:20.433Z",
+        "updated_at": "2023-08-10T11:27:11.762Z",
+        "patient_id": "3bd24e35-76b2-4245-8504-d0186886d4aa"
+      },
+      {
+        "id": "f723e696-3a02-42c0-a8f9-a586eea21512",
+        "record": "Surgical notes",
+        "created_at": "2023-08-10T06:08:14.366Z",
+        "updated_at": "2023-08-10T08:37:00.252Z",
+        "patient_id": "3bd24e35-76b2-4245-8504-d0186886d4aa"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "fdd80330-2c87-4469-9ef8-9dcd1ff9b106",
+        "result": "Blood test",
+        "created_at": "2023-08-09T13:32:26.042Z",
+        "updated_at": "2023-08-10T01:05:11.077Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      },
+      {
+        "id": "7ea646fe-fce8-4c65-900c-7a4c5761c0e2",
+        "result": "Urine analysis",
+        "created_at": "2023-08-09T21:48:27.836Z",
+        "updated_at": "2023-08-10T08:28:25.808Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      },
+      {
+        "id": "f6a06d24-dbac-411b-b54d-3613f900a2af",
+        "result": "X-ray report",
+        "created_at": "2023-08-09T12:48:02.808Z",
+        "updated_at": "2023-08-10T08:38:29.397Z",
+        "patient_id": "6ccd057b-d5c7-4dc9-aa2b-b97be953f82f"
+      },
+      {
+        "id": "f2f5d53e-66e2-49a3-960c-9a295b260750",
+        "result": "MRI scan",
+        "created_at": "2023-08-09T21:05:16.038Z",
+        "updated_at": "2023-08-10T03:59:22.674Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      },
+      {
+        "id": "65ea281a-7c33-41a0-9e1f-4e408d35be69",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-09T19:24:20.978Z",
+        "updated_at": "2023-08-09T18:14:03.226Z",
+        "patient_id": "3bd24e35-76b2-4245-8504-d0186886d4aa"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "061bf3d4-454b-482f-bced-eb583283cb1d",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-09T23:17:47.974Z",
+        "updated_at": "2023-08-10T01:55:51.907Z",
+        "patient_id": "9d24a21a-3bce-438a-bdea-bb0182dc12fe"
+      },
+      {
+        "id": "0e1adf9c-c33f-4bd0-92f8-30e955ab3a14",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "created_at": "2023-08-09T16:00:34.642Z",
+        "updated_at": "2023-08-10T09:21:21.598Z",
+        "patient_id": "40f99fbf-98b3-43bc-bbfa-f1f5133d530b"
+      },
+      {
+        "id": "f5a445ce-4e08-47d4-98d7-560f0468844c",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-10T01:17:23.688Z",
+        "updated_at": "2023-08-09T23:18:01.994Z",
+        "patient_id": "40f99fbf-98b3-43bc-bbfa-f1f5133d530b"
+      },
+      {
+        "id": "dc8d7207-2b4c-4f57-b94b-3fcbb3310c40",
+        "insurance_provider": "Sunrise Healthcare",
+        "policy_number": "321654987",
+        "created_at": "2023-08-09T22:05:54.009Z",
+        "updated_at": "2023-08-10T12:04:04.354Z",
+        "patient_id": "6ccd057b-d5c7-4dc9-aa2b-b97be953f82f"
+      },
+      {
+        "id": "ecae656e-d204-4a78-81d9-9771017b0f3e",
+        "insurance_provider": "National Assurance",
+        "policy_number": "789123456",
+        "created_at": "2023-08-10T03:36:20.905Z",
+        "updated_at": "2023-08-09T15:12:29.207Z",
+        "patient_id": "094e8a1a-e103-4c8a-b50c-2b868473c978"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8dbe9c49-e987-4e83-a80a-cd11c25aa59a",
+        "email": "Manley_Bruen94@yahoo.com",
+        "firstName": "Jarod",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/29.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb35a500-3e85-48bf-a971-7645f77c95c7",
+        "email": "Madisen_Fritsch32@gmail.com",
+        "firstName": "Mustafa",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/201.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebd56761-4c1b-4ff6-b866-18744e287472",
+        "email": "Jade_Kuphal-Metz@hotmail.com",
+        "firstName": "Justina",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13763246",
+        "tenantId": null
+      },
+      {
+        "reference": "f9f4d09a-e6cf-4b02-9778-0ddf1f190e43",
+        "email": "Minnie.Lind@yahoo.com",
+        "firstName": "Mckayla",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60561452",
+        "tenantId": null
+      },
+      {
+        "reference": "62ba8e45-1c86-47ef-993a-cc634f31c61a",
+        "email": "Tre.Cummings@yahoo.com",
+        "firstName": "Christian",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57898174",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "fd4664f9-eeb6-4357-9471-1a43da3e0a8f",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T03:23:47.173Z",
+        "updated_at": "2023-08-10T05:40:11.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "939a2103-1bf1-4ac0-9197-e9e6a2d8a2e0",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T14:32:37.228Z",
+        "updated_at": "2023-08-09T15:17:48.284Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdbc52d1-f942-4616-8954-d92eb5e6a16f",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T05:17:34.845Z",
+        "updated_at": "2023-08-10T07:00:25.112Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2707dbbd-c204-4c04-9aaf-8ce58fa4a431",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T11:48:23.737Z",
+        "updated_at": "2023-08-09T23:53:49.318Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26a1e724-f1e3-4153-8391-748017c0d830",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T18:44:51.827Z",
+        "updated_at": "2023-08-10T02:36:04.461Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "96b61cf9-9050-4380-922e-d733fefd1a35",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-09T22:49:22.302Z",
+        "updated_at": "2023-08-10T11:56:39.385Z",
+        "patient_id": "939a2103-1bf1-4ac0-9197-e9e6a2d8a2e0"
+      },
+      {
+        "id": "02c3ff19-4d37-4c99-b1f6-ddf1c0a0bc6b",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-10T09:58:56.532Z",
+        "updated_at": "2023-08-09T22:12:20.126Z",
+        "patient_id": "fd4664f9-eeb6-4357-9471-1a43da3e0a8f"
+      },
+      {
+        "id": "0f8f8eeb-e531-48df-8ccc-97da023ae3a7",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-09T23:32:41.752Z",
+        "updated_at": "2023-08-09T20:21:14.768Z",
+        "patient_id": "939a2103-1bf1-4ac0-9197-e9e6a2d8a2e0"
+      },
+      {
+        "id": "31c7dc6e-54ce-4f2c-99cf-c9c4a5d08f8d",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-10T04:19:03.024Z",
+        "updated_at": "2023-08-10T10:21:06.458Z",
+        "patient_id": "2707dbbd-c204-4c04-9aaf-8ce58fa4a431"
+      },
+      {
+        "id": "2a554ee1-b1e3-4ff5-898d-4ddb57ea1c18",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-09T22:09:39.743Z",
+        "updated_at": "2023-08-10T00:44:08.115Z",
+        "patient_id": "fdbc52d1-f942-4616-8954-d92eb5e6a16f"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "8e0cda47-f1f9-417f-a518-4ffc9edadeab",
+        "record": "Patient history",
+        "created_at": "2023-08-10T07:16:23.631Z",
+        "updated_at": "2023-08-09T20:40:21.998Z",
+        "patient_id": "939a2103-1bf1-4ac0-9197-e9e6a2d8a2e0"
+      },
+      {
+        "id": "42779e84-a678-49cc-aff3-b6e6ea2746c4",
+        "record": "Lab test results",
+        "created_at": "2023-08-09T16:26:21.202Z",
+        "updated_at": "2023-08-10T07:27:01.976Z",
+        "patient_id": "fdbc52d1-f942-4616-8954-d92eb5e6a16f"
+      },
+      {
+        "id": "c5cb9f3e-2c59-46fc-a7b3-0781598f31f9",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-10T09:39:18.505Z",
+        "updated_at": "2023-08-09T21:01:33.456Z",
+        "patient_id": "26a1e724-f1e3-4153-8391-748017c0d830"
+      },
+      {
+        "id": "77f0d10e-ccff-4e29-a6c1-70221107f49b",
+        "record": "Treatment plan",
+        "created_at": "2023-08-10T11:40:13.953Z",
+        "updated_at": "2023-08-09T16:22:45.975Z",
+        "patient_id": "26a1e724-f1e3-4153-8391-748017c0d830"
+      },
+      {
+        "id": "35188ca4-744e-44ae-adc0-e3ab2875f268",
+        "record": "Surgical notes",
+        "created_at": "2023-08-10T06:55:36.990Z",
+        "updated_at": "2023-08-10T10:28:39.715Z",
+        "patient_id": "fd4664f9-eeb6-4357-9471-1a43da3e0a8f"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "b69ff069-126c-4401-93aa-1b965d28bbe2",
+        "result": "Blood test",
+        "created_at": "2023-08-10T01:30:13.322Z",
+        "updated_at": "2023-08-09T22:51:26.391Z",
+        "patient_id": "2707dbbd-c204-4c04-9aaf-8ce58fa4a431"
+      },
+      {
+        "id": "3557c801-0f5a-4faf-a71f-8b85066f628b",
+        "result": "Urine analysis",
+        "created_at": "2023-08-10T01:42:14.343Z",
+        "updated_at": "2023-08-09T21:03:03.819Z",
+        "patient_id": "26a1e724-f1e3-4153-8391-748017c0d830"
+      },
+      {
+        "id": "5b48d7ee-c476-4568-b1cc-8953a6be6f64",
+        "result": "X-ray report",
+        "created_at": "2023-08-09T17:11:51.495Z",
+        "updated_at": "2023-08-10T10:35:37.237Z",
+        "patient_id": "939a2103-1bf1-4ac0-9197-e9e6a2d8a2e0"
+      },
+      {
+        "id": "00e8c79b-a888-4b6e-a18c-54b5051ef4bc",
+        "result": "MRI scan",
+        "created_at": "2023-08-09T20:12:11.991Z",
+        "updated_at": "2023-08-09T21:35:32.911Z",
+        "patient_id": "26a1e724-f1e3-4153-8391-748017c0d830"
+      },
+      {
+        "id": "6df1041c-88ce-4870-8a49-757967bdecfb",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-10T01:38:02.259Z",
+        "updated_at": "2023-08-10T04:19:50.204Z",
+        "patient_id": "2707dbbd-c204-4c04-9aaf-8ce58fa4a431"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "3001d474-1f3e-4715-b10f-b7d23d58ba2e",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-09T20:38:45.101Z",
+        "updated_at": "2023-08-10T06:05:35.703Z",
+        "patient_id": "26a1e724-f1e3-4153-8391-748017c0d830"
+      },
+      {
+        "id": "cf320a1a-a705-47ba-9eb1-7681bbe6f93a",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "created_at": "2023-08-09T18:04:15.242Z",
+        "updated_at": "2023-08-10T09:36:32.173Z",
+        "patient_id": "2707dbbd-c204-4c04-9aaf-8ce58fa4a431"
+      },
+      {
+        "id": "a5c6a140-aa73-46f2-aafc-03a59ff9ac3c",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-09T16:27:07.793Z",
+        "updated_at": "2023-08-10T04:04:07.366Z",
+        "patient_id": "2707dbbd-c204-4c04-9aaf-8ce58fa4a431"
+      },
+      {
+        "id": "cb9130f9-6c04-46bd-a27f-52acff1e81a6",
+        "insurance_provider": "Sunrise Healthcare",
+        "policy_number": "321654987",
+        "created_at": "2023-08-10T01:47:00.685Z",
+        "updated_at": "2023-08-10T08:05:28.356Z",
+        "patient_id": "fd4664f9-eeb6-4357-9471-1a43da3e0a8f"
+      },
+      {
+        "id": "b41f1627-ac6e-4035-92e5-ea6b95149b2f",
+        "insurance_provider": "National Assurance",
+        "policy_number": "789123456",
+        "created_at": "2023-08-09T14:50:45.293Z",
+        "updated_at": "2023-08-10T03:42:07.333Z",
+        "patient_id": "939a2103-1bf1-4ac0-9197-e9e6a2d8a2e0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d877f8ed-addb-4fed-843e-b21c16d6b222",
+        "email": "Itzel_Keeling@yahoo.com",
+        "firstName": "Bart",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89392774",
+        "tenantId": null
+      },
+      {
+        "reference": "3815d005-8924-4181-a2e9-e8c69d457acc",
+        "email": "Thaddeus_Cremin@hotmail.com",
+        "firstName": "Amir",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/344515",
+        "tenantId": null
+      },
+      {
+        "reference": "950026dd-58bf-4d00-ae67-dea8a2d77b53",
+        "email": "Eryn.Lang45@hotmail.com",
+        "firstName": "Isabelle",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/151.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03595a82-a464-463a-b78f-b7834d5c4302",
+        "email": "Ansley11@hotmail.com",
+        "firstName": "Harley",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/849.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81cf8f43-4717-4897-9ba3-c4e84eb1d0ea",
+        "email": "Shawn_Sporer8@hotmail.com",
+        "firstName": "Myriam",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "e76fe35d-8ff0-4ec6-874c-10cd81f266dd",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T00:09:17.843Z",
+        "updated_at": "2023-08-09T16:47:43.062Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8666d700-8d25-456c-9cdc-d2bfe1d02c6e",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T08:20:16.087Z",
+        "updated_at": "2023-08-09T15:51:06.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T09:20:30.961Z",
+        "updated_at": "2023-08-10T03:38:08.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30182888-7b8d-4c59-beb5-21659ba664bf",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T14:34:14.222Z",
+        "updated_at": "2023-08-10T05:40:41.248Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c25c80aa-69ed-4bbc-8aac-074e77041ac4",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T11:14:52.783Z",
+        "updated_at": "2023-08-10T01:35:14.727Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "c5bc2522-a57f-4d15-b36c-cf8e3464a04b",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-09T19:39:51.680Z",
+        "updated_at": "2023-08-09T21:35:18.664Z",
+        "patient_id": "30182888-7b8d-4c59-beb5-21659ba664bf"
+      },
+      {
+        "id": "031fdacf-f0ad-4308-9eb2-d976f9cf5133",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-10T06:27:45.701Z",
+        "updated_at": "2023-08-10T02:33:38.425Z",
+        "patient_id": "30182888-7b8d-4c59-beb5-21659ba664bf"
+      },
+      {
+        "id": "5bfbb01e-6bfa-4e33-b225-e32593c582fe",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-09T12:39:26.835Z",
+        "updated_at": "2023-08-09T22:48:12.521Z",
+        "patient_id": "8666d700-8d25-456c-9cdc-d2bfe1d02c6e"
+      },
+      {
+        "id": "9e673c4b-9180-4253-a1f1-c534a6465c11",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-10T06:07:37.935Z",
+        "updated_at": "2023-08-10T03:20:59.509Z",
+        "patient_id": "8666d700-8d25-456c-9cdc-d2bfe1d02c6e"
+      },
+      {
+        "id": "75caeff2-7a89-4cb0-add0-1c9a9e935b76",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-09T22:42:03.103Z",
+        "updated_at": "2023-08-10T09:07:29.866Z",
+        "patient_id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "0ef22ca4-f5f7-40a9-a5f0-9cb26aa33b6e",
+        "record": "Patient history",
+        "created_at": "2023-08-09T18:27:14.375Z",
+        "updated_at": "2023-08-09T18:22:14.533Z",
+        "patient_id": "30182888-7b8d-4c59-beb5-21659ba664bf"
+      },
+      {
+        "id": "77cdb5da-e5c2-41fd-a1cf-45dc159b48e1",
+        "record": "Lab test results",
+        "created_at": "2023-08-10T04:21:16.321Z",
+        "updated_at": "2023-08-09T23:01:43.842Z",
+        "patient_id": "e76fe35d-8ff0-4ec6-874c-10cd81f266dd"
+      },
+      {
+        "id": "cbc93037-f949-4076-8975-4e911bae4c04",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-09T18:41:09.321Z",
+        "updated_at": "2023-08-10T02:20:38.757Z",
+        "patient_id": "8666d700-8d25-456c-9cdc-d2bfe1d02c6e"
+      },
+      {
+        "id": "2fe1ebc4-2765-405c-9a8e-c35818db6540",
+        "record": "Treatment plan",
+        "created_at": "2023-08-10T05:42:28.481Z",
+        "updated_at": "2023-08-10T02:10:45.440Z",
+        "patient_id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e"
+      },
+      {
+        "id": "be334367-7ada-44f4-8775-4d10d2f0357b",
+        "record": "Surgical notes",
+        "created_at": "2023-08-10T11:26:14.310Z",
+        "updated_at": "2023-08-10T08:40:02.799Z",
+        "patient_id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "acb30063-8f63-4e85-ae62-a72e3b086cbb",
+        "result": "Blood test",
+        "created_at": "2023-08-09T21:26:17.178Z",
+        "updated_at": "2023-08-09T22:30:38.534Z",
+        "patient_id": "e76fe35d-8ff0-4ec6-874c-10cd81f266dd"
+      },
+      {
+        "id": "f233d2c6-d455-4a1e-a747-d77d2b596b18",
+        "result": "Urine analysis",
+        "created_at": "2023-08-09T19:21:07.052Z",
+        "updated_at": "2023-08-10T08:29:03.509Z",
+        "patient_id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e"
+      },
+      {
+        "id": "e896e83a-dc9d-4fc0-8a5a-13ba0a585c51",
+        "result": "X-ray report",
+        "created_at": "2023-08-10T00:51:03.675Z",
+        "updated_at": "2023-08-10T11:06:29.067Z",
+        "patient_id": "30182888-7b8d-4c59-beb5-21659ba664bf"
+      },
+      {
+        "id": "1682802d-7d2b-4a69-a71d-0a20d7ce4187",
+        "result": "MRI scan",
+        "created_at": "2023-08-09T22:35:59.123Z",
+        "updated_at": "2023-08-10T04:08:12.952Z",
+        "patient_id": "e76fe35d-8ff0-4ec6-874c-10cd81f266dd"
+      },
+      {
+        "id": "f678ac58-2859-4f2a-bafb-680c3c45c720",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-10T09:08:52.183Z",
+        "updated_at": "2023-08-10T04:59:57.649Z",
+        "patient_id": "c25c80aa-69ed-4bbc-8aac-074e77041ac4"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "c819d433-ae8f-44ee-9bce-fcaf3c8b58de",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-10T01:12:03.849Z",
+        "updated_at": "2023-08-09T23:21:09.062Z",
+        "patient_id": "30182888-7b8d-4c59-beb5-21659ba664bf"
+      },
+      {
+        "id": "82e32063-7463-4604-a760-873cbe863208",
+        "insurance_provider": "XYZ Healthcare",
+        "policy_number": "987654321",
+        "created_at": "2023-08-10T06:50:16.224Z",
+        "updated_at": "2023-08-10T11:39:25.223Z",
+        "patient_id": "30182888-7b8d-4c59-beb5-21659ba664bf"
+      },
+      {
+        "id": "51a36ba2-d226-4d19-adad-279f03c11d9b",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-10T00:33:59.957Z",
+        "updated_at": "2023-08-09T14:34:22.142Z",
+        "patient_id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e"
+      },
+      {
+        "id": "594eee1c-ccbb-493d-9a24-bf92f638d693",
+        "insurance_provider": "Sunrise Health",
+        "policy_number": "321654987",
+        "created_at": "2023-08-09T13:57:54.612Z",
+        "updated_at": "2023-08-10T03:20:10.113Z",
+        "patient_id": "c25c80aa-69ed-4bbc-8aac-074e77041ac4"
+      },
+      {
+        "id": "2e080765-441d-44d6-86da-6435ecc0690b",
+        "insurance_provider": "National Assurance",
+        "policy_number": "789123456",
+        "created_at": "2023-08-10T07:04:40.241Z",
+        "updated_at": "2023-08-10T12:04:50.583Z",
+        "patient_id": "643f919d-ee1b-4c43-8f13-9c6560e10b5e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c85577e0-7602-4411-a975-e4e6fecb0bc2",
+        "email": "Hilda_Purdy30@hotmail.com",
+        "firstName": "Misael",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12450161",
+        "tenantId": null
+      },
+      {
+        "reference": "4ec78892-6f6a-491a-9a51-6f70d3091718",
+        "email": "Maxine_Mante@hotmail.com",
+        "firstName": "Dante",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/673.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a1b4c86-8241-4638-9bbc-bcd6b31c9543",
+        "email": "Hope_Heathcote@gmail.com",
+        "firstName": "Leonora",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80393775",
+        "tenantId": null
+      },
+      {
+        "reference": "36fb4124-3ce5-47df-8907-0d28b8e7307b",
+        "email": "Tavares_Frami@yahoo.com",
+        "firstName": "Jonathan",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e015b911-7787-41ec-a86b-7374e6401a78",
+        "email": "Eliezer.Prohaska36@gmail.com",
+        "firstName": "Scottie",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/658.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "c7325891-c161-40d8-bf0c-ba8ba6b35dac",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T15:24:57.697Z",
+        "updated_at": "2023-08-10T02:07:38.161Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T00:02:46.212Z",
+        "updated_at": "2023-08-09T14:27:23.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d79a2764-0654-4c93-a57d-6d9e2bb65ef9",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T08:49:54.269Z",
+        "updated_at": "2023-08-10T11:26:43.852Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4c1b01b-768d-4e83-8278-934c2d67238e",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T11:25:49.445Z",
+        "updated_at": "2023-08-10T06:23:48.668Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d894896-9498-4841-99c5-b255dd9b0f7c",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T01:14:39.286Z",
+        "updated_at": "2023-08-09T19:32:54.816Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "e0785b12-2748-449a-96b2-22aa001eec1f",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-10T12:08:11.161Z",
+        "updated_at": "2023-08-09T12:32:33.927Z",
+        "patient_id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0"
+      },
+      {
+        "id": "cf5c6b98-835b-467a-8b4e-fd5b3e61c34a",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-10T07:15:58.885Z",
+        "updated_at": "2023-08-09T21:36:06.973Z",
+        "patient_id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0"
+      },
+      {
+        "id": "d27f12b8-e2e5-46e5-95fc-34b2cc030c59",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-09T23:31:29.687Z",
+        "updated_at": "2023-08-10T01:08:15.291Z",
+        "patient_id": "7d894896-9498-4841-99c5-b255dd9b0f7c"
+      },
+      {
+        "id": "f251d148-6069-47d6-b736-4ae983973917",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-10T03:02:13.640Z",
+        "updated_at": "2023-08-09T23:08:05.086Z",
+        "patient_id": "7d894896-9498-4841-99c5-b255dd9b0f7c"
+      },
+      {
+        "id": "39b96655-4e31-45e7-92d4-37ee658df226",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-09T23:14:50.099Z",
+        "updated_at": "2023-08-09T14:12:24.799Z",
+        "patient_id": "d79a2764-0654-4c93-a57d-6d9e2bb65ef9"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "22d87d18-6321-4d72-8d1e-2973c2a8a429",
+        "record": "Patient history",
+        "created_at": "2023-08-09T20:11:53.849Z",
+        "updated_at": "2023-08-09T14:14:08.482Z",
+        "patient_id": "e4c1b01b-768d-4e83-8278-934c2d67238e"
+      },
+      {
+        "id": "46a67567-c2fa-4320-98fa-ca53a478010d",
+        "record": "Lab test results",
+        "created_at": "2023-08-10T09:27:02.501Z",
+        "updated_at": "2023-08-09T19:10:04.259Z",
+        "patient_id": "7d894896-9498-4841-99c5-b255dd9b0f7c"
+      },
+      {
+        "id": "b4dc14cb-bb0a-4bb3-a6ef-274c374fbe16",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-09T17:55:44.074Z",
+        "updated_at": "2023-08-09T21:15:03.225Z",
+        "patient_id": "c7325891-c161-40d8-bf0c-ba8ba6b35dac"
+      },
+      {
+        "id": "687ecb46-a071-432e-863b-50c399b35836",
+        "record": "Treatment plan",
+        "created_at": "2023-08-10T08:47:30.494Z",
+        "updated_at": "2023-08-10T10:43:10.193Z",
+        "patient_id": "c7325891-c161-40d8-bf0c-ba8ba6b35dac"
+      },
+      {
+        "id": "719e93c4-3190-43e7-87fd-621d8249277c",
+        "record": "Surgical notes",
+        "created_at": "2023-08-09T22:38:52.963Z",
+        "updated_at": "2023-08-10T11:56:14.343Z",
+        "patient_id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "00cae4a1-dc7e-4087-83d7-c4be89825b9e",
+        "result": "Blood test",
+        "created_at": "2023-08-09T23:48:19.897Z",
+        "updated_at": "2023-08-10T05:28:40.383Z",
+        "patient_id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0"
+      },
+      {
+        "id": "3dd16f07-e419-4078-a11e-5339e238e255",
+        "result": "Urine analysis",
+        "created_at": "2023-08-10T09:30:47.151Z",
+        "updated_at": "2023-08-10T11:28:09.227Z",
+        "patient_id": "7d894896-9498-4841-99c5-b255dd9b0f7c"
+      },
+      {
+        "id": "4d7bd0a4-9335-44e6-b0e7-fb17d130f485",
+        "result": "X-ray report",
+        "created_at": "2023-08-10T01:01:04.292Z",
+        "updated_at": "2023-08-10T11:21:25.504Z",
+        "patient_id": "d79a2764-0654-4c93-a57d-6d9e2bb65ef9"
+      },
+      {
+        "id": "fe68345f-11f1-43c5-a998-6fd058913379",
+        "result": "MRI scan",
+        "created_at": "2023-08-10T09:12:24.732Z",
+        "updated_at": "2023-08-10T08:56:52.246Z",
+        "patient_id": "e4c1b01b-768d-4e83-8278-934c2d67238e"
+      },
+      {
+        "id": "73d747d5-14ef-402b-a795-ac3da712d476",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-10T11:35:26.367Z",
+        "updated_at": "2023-08-09T18:56:49.099Z",
+        "patient_id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "e7e1df9f-5d5b-448f-96d6-9256e740549d",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P12345",
+        "created_at": "2023-08-10T06:55:59.211Z",
+        "updated_at": "2023-08-09T15:58:09.815Z",
+        "patient_id": "d79a2764-0654-4c93-a57d-6d9e2bb65ef9"
+      },
+      {
+        "id": "1413f2cf-ffba-43bc-99ee-aaa704b90cc6",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "Q67890",
+        "created_at": "2023-08-09T23:30:30.889Z",
+        "updated_at": "2023-08-09T23:18:02.734Z",
+        "patient_id": "d79a2764-0654-4c93-a57d-6d9e2bb65ef9"
+      },
+      {
+        "id": "be168e12-43bb-44ec-a57e-7591d2cc5d3f",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "R54321",
+        "created_at": "2023-08-10T00:57:53.274Z",
+        "updated_at": "2023-08-10T02:52:12.442Z",
+        "patient_id": "c7325891-c161-40d8-bf0c-ba8ba6b35dac"
+      },
+      {
+        "id": "7fe13f92-4074-424b-850f-3eaabafb2289",
+        "insurance_provider": "MediCare",
+        "policy_number": "S09876",
+        "created_at": "2023-08-09T21:04:21.900Z",
+        "updated_at": "2023-08-10T08:52:53.044Z",
+        "patient_id": "889addaa-f270-4e01-8e8d-69eda1b8fbc0"
+      },
+      {
+        "id": "f035c54a-6138-4ee1-a1f1-cd94388762d7",
+        "insurance_provider": "SecureHealth",
+        "policy_number": "T54321",
+        "created_at": "2023-08-10T01:57:12.411Z",
+        "updated_at": "2023-08-10T01:05:16.535Z",
+        "patient_id": "7d894896-9498-4841-99c5-b255dd9b0f7c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78c25f06-c0b1-428d-b9e5-0d0dc0ddaeb8",
+        "email": "Ayana_Bartoletti@gmail.com",
+        "firstName": "Keanu",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47328067",
+        "tenantId": null
+      },
+      {
+        "reference": "b99e9886-d0dc-4688-a5ba-d2d26afcd89b",
+        "email": "Noelia98@hotmail.com",
+        "firstName": "Kristoffer",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69932817",
+        "tenantId": null
+      },
+      {
+        "reference": "33b17f0b-316b-4ef0-9cc5-ec80adff0eda",
+        "email": "Casey9@gmail.com",
+        "firstName": "Ari",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53256b65-3de2-4719-aa81-91ef8324b959",
+        "email": "Noelia66@gmail.com",
+        "firstName": "Lewis",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e566afb-77cd-4d4a-8249-88f78a5f50a3",
+        "email": "Dangelo_Williamson@yahoo.com",
+        "firstName": "Lorena",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61218359",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "bb2647df-9edb-4d33-a939-177e4fa19267",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T01:04:31.077Z",
+        "updated_at": "2023-08-10T03:54:06.582Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e572017d-2f6d-4e4f-9553-1ee527f605fb",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T05:43:36.189Z",
+        "updated_at": "2023-08-09T20:53:09.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea26b6af-7a74-4ff9-9a8b-80e76fe28906",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T04:17:30.354Z",
+        "updated_at": "2023-08-09T22:05:28.385Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eab8f294-26f9-4345-8728-4e713e821a76",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T03:16:41.827Z",
+        "updated_at": "2023-08-10T02:30:10.833Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1fb0b95-ce3c-4da4-b906-ec826956b73e",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T03:37:50.127Z",
+        "updated_at": "2023-08-09T15:51:53.960Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "75fd2838-32a9-417a-8511-353e5a4c2f0a",
+        "medication": "Aspirin",
+        "dosage": "500mg",
+        "created_at": "2023-08-09T21:28:15.115Z",
+        "updated_at": "2023-08-09T16:40:52.863Z",
+        "patient_id": "eab8f294-26f9-4345-8728-4e713e821a76"
+      },
+      {
+        "id": "87d0858e-0941-4d87-832f-d8779372b55d",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-10T02:58:30.167Z",
+        "updated_at": "2023-08-09T23:53:24.248Z",
+        "patient_id": "ea26b6af-7a74-4ff9-9a8b-80e76fe28906"
+      },
+      {
+        "id": "22b594c9-6b16-4693-95c2-837757ac42b9",
+        "medication": "Paracetamol",
+        "dosage": "1000mg",
+        "created_at": "2023-08-10T00:10:20.349Z",
+        "updated_at": "2023-08-09T19:30:18.965Z",
+        "patient_id": "ea26b6af-7a74-4ff9-9a8b-80e76fe28906"
+      },
+      {
+        "id": "7cbb2bb5-e6f7-4e8e-9b0a-5db8e6563d1d",
+        "medication": "Amoxicillin",
+        "dosage": "250mg",
+        "created_at": "2023-08-09T15:56:03.382Z",
+        "updated_at": "2023-08-10T07:26:15.730Z",
+        "patient_id": "a1fb0b95-ce3c-4da4-b906-ec826956b73e"
+      },
+      {
+        "id": "60af4941-afd7-451e-b86c-9d8403764cad",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-09T20:54:31.693Z",
+        "updated_at": "2023-08-09T14:21:51.693Z",
+        "patient_id": "bb2647df-9edb-4d33-a939-177e4fa19267"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "ae30e38e-c090-4397-a6b7-37dc014c151e",
+        "record": "Patient history",
+        "created_at": "2023-08-10T05:38:14.839Z",
+        "updated_at": "2023-08-09T15:28:00.006Z",
+        "patient_id": "a1fb0b95-ce3c-4da4-b906-ec826956b73e"
+      },
+      {
+        "id": "ff344e49-f3d1-464c-8ed2-d562f5841fef",
+        "record": "Lab test results",
+        "created_at": "2023-08-10T00:46:02.258Z",
+        "updated_at": "2023-08-09T13:37:52.978Z",
+        "patient_id": "bb2647df-9edb-4d33-a939-177e4fa19267"
+      },
+      {
+        "id": "96f419f2-e375-445d-9e42-ab880cec76b7",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-10T04:22:10.270Z",
+        "updated_at": "2023-08-09T18:44:41.295Z",
+        "patient_id": "e572017d-2f6d-4e4f-9553-1ee527f605fb"
+      },
+      {
+        "id": "864cd2cf-c016-4253-a37c-213180355ca6",
+        "record": "Treatment plan",
+        "created_at": "2023-08-09T23:20:35.802Z",
+        "updated_at": "2023-08-10T00:38:00.193Z",
+        "patient_id": "e572017d-2f6d-4e4f-9553-1ee527f605fb"
+      },
+      {
+        "id": "eb18c7e9-85d1-4e43-8591-54cf4e384374",
+        "record": "Surgical notes",
+        "created_at": "2023-08-10T00:12:59.930Z",
+        "updated_at": "2023-08-09T22:58:41.248Z",
+        "patient_id": "e572017d-2f6d-4e4f-9553-1ee527f605fb"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "8658535e-5828-4b83-a1da-e38acfcc18da",
+        "result": "Blood test",
+        "created_at": "2023-08-10T06:05:11.134Z",
+        "updated_at": "2023-08-10T12:13:47.251Z",
+        "patient_id": "e572017d-2f6d-4e4f-9553-1ee527f605fb"
+      },
+      {
+        "id": "5a73c31f-8090-4fa9-9e7f-fefbb168685f",
+        "result": "Urine analysis",
+        "created_at": "2023-08-10T00:44:07.548Z",
+        "updated_at": "2023-08-09T16:01:22.264Z",
+        "patient_id": "e572017d-2f6d-4e4f-9553-1ee527f605fb"
+      },
+      {
+        "id": "75449fc7-fa87-498b-abf5-42abdfd47189",
+        "result": "X-ray report",
+        "created_at": "2023-08-10T08:20:24.287Z",
+        "updated_at": "2023-08-09T23:37:02.346Z",
+        "patient_id": "bb2647df-9edb-4d33-a939-177e4fa19267"
+      },
+      {
+        "id": "c89f236e-ad5b-426d-b0aa-311fab9507d5",
+        "result": "MRI scan",
+        "created_at": "2023-08-10T08:12:34.008Z",
+        "updated_at": "2023-08-09T13:40:33.349Z",
+        "patient_id": "e572017d-2f6d-4e4f-9553-1ee527f605fb"
+      },
+      {
+        "id": "b8cadeba-0448-460a-84a9-a69ab6afdcc0",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-10T07:41:13.442Z",
+        "updated_at": "2023-08-09T13:43:12.122Z",
+        "patient_id": "bb2647df-9edb-4d33-a939-177e4fa19267"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "873341b4-3aff-4317-ad84-7ce7fdcdadcc",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-09T16:21:02.601Z",
+        "updated_at": "2023-08-10T10:39:23.509Z",
+        "patient_id": "eab8f294-26f9-4345-8728-4e713e821a76"
+      },
+      {
+        "id": "d903dcd5-ec89-41d0-8323-97e16e112658",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "created_at": "2023-08-10T04:15:34.544Z",
+        "updated_at": "2023-08-09T22:14:59.130Z",
+        "patient_id": "a1fb0b95-ce3c-4da4-b906-ec826956b73e"
+      },
+      {
+        "id": "7f965298-a8de-43e8-963e-ea4b5e05d1c6",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-09T21:26:32.430Z",
+        "updated_at": "2023-08-10T00:21:20.541Z",
+        "patient_id": "bb2647df-9edb-4d33-a939-177e4fa19267"
+      },
+      {
+        "id": "d9d7839f-fc10-4d40-b91b-33e8cc757798",
+        "insurance_provider": "Sunrise Healthcare",
+        "policy_number": "321654987",
+        "created_at": "2023-08-10T01:50:24.568Z",
+        "updated_at": "2023-08-09T21:58:02.724Z",
+        "patient_id": "eab8f294-26f9-4345-8728-4e713e821a76"
+      },
+      {
+        "id": "461835d2-4801-4ff2-b03a-baa727cdb474",
+        "insurance_provider": "Global Insure",
+        "policy_number": "789123456",
+        "created_at": "2023-08-10T08:51:50.026Z",
+        "updated_at": "2023-08-09T19:38:56.403Z",
+        "patient_id": "a1fb0b95-ce3c-4da4-b906-ec826956b73e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c61e4af9-162b-4a98-84da-1f0e5a99a8c5",
+        "email": "Jude_Wehner34@yahoo.com",
+        "firstName": "Keenan",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0eaa8e53-13c6-4739-9457-c4d12cb4316e",
+        "email": "Arlene_West@gmail.com",
+        "firstName": "Kaycee",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/586.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfbf27c7-7e0c-4838-9606-03745f1807d2",
+        "email": "Mark.Quigley39@yahoo.com",
+        "firstName": "Brenden",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57696288",
+        "tenantId": null
+      },
+      {
+        "reference": "5db70c45-5a47-4a5c-966c-53d3cb79af6a",
+        "email": "Archibald_Mayer73@gmail.com",
+        "firstName": "Helena",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1092.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69cb2493-0a89-4546-bc08-e4d1a16586ac",
+        "email": "Anne_Steuber46@gmail.com",
+        "firstName": "Dorcas",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "285378e9-2276-49dd-80cb-2d76c4b8555e",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T00:19:00.049Z",
+        "updated_at": "2023-08-10T10:59:29.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2508cbd-53fe-4fce-999c-f961f61b22ab",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T05:39:35.136Z",
+        "updated_at": "2023-08-09T14:31:20.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70d37f4e-0aba-4e42-abb9-6918bd47c88f",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T15:02:18.770Z",
+        "updated_at": "2023-08-09T17:24:21.493Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "187329e6-dfce-4b9e-9f95-26f383540f75",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T19:41:41.517Z",
+        "updated_at": "2023-08-09T15:51:20.336Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a81a0dd1-6886-4801-b2ad-49be32ea0913",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T02:46:04.422Z",
+        "updated_at": "2023-08-10T02:28:16.969Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "c32b2c32-f2dc-4102-98c2-c2140533d996",
+        "medication": "Aspirin",
+        "dosage": "500mg",
+        "created_at": "2023-08-09T18:02:26.697Z",
+        "updated_at": "2023-08-10T09:31:37.886Z",
+        "patient_id": "187329e6-dfce-4b9e-9f95-26f383540f75"
+      },
+      {
+        "id": "b4516bd4-910e-4a41-8e28-bf7167fd1de3",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-10T10:06:36.106Z",
+        "updated_at": "2023-08-10T03:19:05.459Z",
+        "patient_id": "e2508cbd-53fe-4fce-999c-f961f61b22ab"
+      },
+      {
+        "id": "32d3ef87-56b3-499c-84cb-fba02327f8f8",
+        "medication": "Paracetamol",
+        "dosage": "1000mg",
+        "created_at": "2023-08-09T13:19:41.734Z",
+        "updated_at": "2023-08-10T00:24:32.856Z",
+        "patient_id": "285378e9-2276-49dd-80cb-2d76c4b8555e"
+      },
+      {
+        "id": "ef9a1478-32d5-48b6-a87f-1f6de8a6d9bd",
+        "medication": "Amoxicillin",
+        "dosage": "250mg",
+        "created_at": "2023-08-09T20:18:53.495Z",
+        "updated_at": "2023-08-10T10:27:30.349Z",
+        "patient_id": "e2508cbd-53fe-4fce-999c-f961f61b22ab"
+      },
+      {
+        "id": "c5fe2a99-cb11-437c-808c-dbe581376f77",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-10T10:22:20.401Z",
+        "updated_at": "2023-08-09T18:49:38.815Z",
+        "patient_id": "70d37f4e-0aba-4e42-abb9-6918bd47c88f"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "a339b63a-89fa-4ff0-b8c8-c0b95b739490",
+        "record": "Patient history",
+        "created_at": "2023-08-09T23:35:30.072Z",
+        "updated_at": "2023-08-09T16:01:32.416Z",
+        "patient_id": "a81a0dd1-6886-4801-b2ad-49be32ea0913"
+      },
+      {
+        "id": "d61136ab-87cf-4b95-b87e-e95e6645b853",
+        "record": "Lab test results",
+        "created_at": "2023-08-10T06:14:35.527Z",
+        "updated_at": "2023-08-09T20:07:24.523Z",
+        "patient_id": "70d37f4e-0aba-4e42-abb9-6918bd47c88f"
+      },
+      {
+        "id": "109d77a2-7eab-46dd-a39c-686cd81459ed",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-09T23:16:00.838Z",
+        "updated_at": "2023-08-09T12:43:08.159Z",
+        "patient_id": "187329e6-dfce-4b9e-9f95-26f383540f75"
+      },
+      {
+        "id": "3b6e212a-a01a-4f9a-8cd9-8f8643186139",
+        "record": "Treatment plan",
+        "created_at": "2023-08-09T13:46:06.194Z",
+        "updated_at": "2023-08-10T09:06:41.295Z",
+        "patient_id": "70d37f4e-0aba-4e42-abb9-6918bd47c88f"
+      },
+      {
+        "id": "7d32bc2a-2f56-4a11-bdaa-1320f530c1b8",
+        "record": "Surgical notes",
+        "created_at": "2023-08-09T22:44:58.425Z",
+        "updated_at": "2023-08-10T06:00:05.092Z",
+        "patient_id": "a81a0dd1-6886-4801-b2ad-49be32ea0913"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "8fd7c3ea-2fb6-439a-b88c-4d6257098d5d",
+        "result": "Blood test",
+        "created_at": "2023-08-10T03:34:40.918Z",
+        "updated_at": "2023-08-09T13:08:21.010Z",
+        "patient_id": "a81a0dd1-6886-4801-b2ad-49be32ea0913"
+      },
+      {
+        "id": "709d162e-12aa-4179-bd7a-5294a52c7267",
+        "result": "Urine analysis",
+        "created_at": "2023-08-10T05:54:42.335Z",
+        "updated_at": "2023-08-10T03:45:57.077Z",
+        "patient_id": "a81a0dd1-6886-4801-b2ad-49be32ea0913"
+      },
+      {
+        "id": "d51caac0-041c-4f3e-b819-3d82b78efc04",
+        "result": "X-ray report",
+        "created_at": "2023-08-09T19:28:54.288Z",
+        "updated_at": "2023-08-10T04:51:54.123Z",
+        "patient_id": "285378e9-2276-49dd-80cb-2d76c4b8555e"
+      },
+      {
+        "id": "993bbed3-2569-4e33-8868-d0c0843f99ac",
+        "result": "MRI scan",
+        "created_at": "2023-08-09T13:22:16.635Z",
+        "updated_at": "2023-08-09T20:17:39.792Z",
+        "patient_id": "70d37f4e-0aba-4e42-abb9-6918bd47c88f"
+      },
+      {
+        "id": "675de260-30fe-4582-8d58-f149dd99116c",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-09T20:45:03.946Z",
+        "updated_at": "2023-08-10T09:14:53.044Z",
+        "patient_id": "e2508cbd-53fe-4fce-999c-f961f61b22ab"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "41341d5e-1628-40f6-9f5a-059946ec275a",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-09T14:00:58.899Z",
+        "updated_at": "2023-08-09T17:50:41.750Z",
+        "patient_id": "a81a0dd1-6886-4801-b2ad-49be32ea0913"
+      },
+      {
+        "id": "fab3244f-df02-4489-a5a7-39dc194a2b72",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "created_at": "2023-08-10T11:47:48.903Z",
+        "updated_at": "2023-08-09T15:24:07.031Z",
+        "patient_id": "70d37f4e-0aba-4e42-abb9-6918bd47c88f"
+      },
+      {
+        "id": "1bf477b4-aede-4832-a3c1-e0239e6e58ca",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-09T16:34:37.833Z",
+        "updated_at": "2023-08-10T07:31:10.268Z",
+        "patient_id": "e2508cbd-53fe-4fce-999c-f961f61b22ab"
+      },
+      {
+        "id": "277c0f19-e27d-4470-a07f-f0274d358a2d",
+        "insurance_provider": "Sunrise Healthcare",
+        "policy_number": "321654987",
+        "created_at": "2023-08-09T18:26:13.295Z",
+        "updated_at": "2023-08-09T14:08:58.525Z",
+        "patient_id": "285378e9-2276-49dd-80cb-2d76c4b8555e"
+      },
+      {
+        "id": "a7a08b5c-a36a-4b69-9aeb-046225f8b4f4",
+        "insurance_provider": "Global Insure",
+        "policy_number": "789123456",
+        "created_at": "2023-08-10T03:43:13.227Z",
+        "updated_at": "2023-08-10T00:38:52.297Z",
+        "patient_id": "285378e9-2276-49dd-80cb-2d76c4b8555e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d2f2732-398f-41ca-97be-9a1513691464",
+        "email": "Kaleigh19@hotmail.com",
+        "firstName": "Raymond",
+        "lastName": "Shields-Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27075688",
+        "tenantId": null
+      },
+      {
+        "reference": "62c33d08-5cf9-4cdf-83b6-83713a7147c0",
+        "email": "Corrine16@yahoo.com",
+        "firstName": "Jamir",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47692384",
+        "tenantId": null
+      },
+      {
+        "reference": "6ea163e9-86da-46ac-9390-8d407796eded",
+        "email": "Johnathan.Rice@hotmail.com",
+        "firstName": "Otilia",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/834.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6e3596d1-a0ba-42d7-94fc-48349af5aa1f",
+        "email": "Kathryn.Kessler96@hotmail.com",
+        "firstName": "Demetris",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "06183a76-0b87-40fe-bde3-1947bcb6399c",
+        "email": "Bernie_Bergstrom81@hotmail.com",
+        "firstName": "Sam",
+        "lastName": "Von-Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45625143",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "f89187dd-dd76-4489-b31b-027377f03e54",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T12:09:28.467Z",
+        "updated_at": "2023-08-10T03:44:20.912Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77fc9105-3c1f-445c-b1e1-ac94b1539650",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T20:15:19.948Z",
+        "updated_at": "2023-08-09T14:40:31.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "025e84d9-41d6-43cb-acc3-0b718a9ceeb2",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T13:01:13.812Z",
+        "updated_at": "2023-08-10T05:04:04.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d170ccb5-b2b8-4285-92c7-a3fdbadc44ed",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T19:12:48.742Z",
+        "updated_at": "2023-08-10T07:31:11.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83c61a81-9f13-47b5-8d33-20173082944d",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T07:51:59.833Z",
+        "updated_at": "2023-08-09T18:06:33.936Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "420f0ef4-2ce2-4505-949e-9800494e6da6",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-10T04:31:03.704Z",
+        "updated_at": "2023-08-10T09:02:53.170Z",
+        "patient_id": "77fc9105-3c1f-445c-b1e1-ac94b1539650"
+      },
+      {
+        "id": "90bfb8aa-8e6b-442d-9f8d-6a8e30323f87",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-09T14:07:13.379Z",
+        "updated_at": "2023-08-09T13:28:26.894Z",
+        "patient_id": "83c61a81-9f13-47b5-8d33-20173082944d"
+      },
+      {
+        "id": "763ff91b-b513-4343-9523-35620646658b",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-09T20:17:16.996Z",
+        "updated_at": "2023-08-10T06:01:11.950Z",
+        "patient_id": "025e84d9-41d6-43cb-acc3-0b718a9ceeb2"
+      },
+      {
+        "id": "8f70d8bb-6f50-4604-9725-c2f6e58d363a",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-10T00:43:26.283Z",
+        "updated_at": "2023-08-10T09:55:01.432Z",
+        "patient_id": "f89187dd-dd76-4489-b31b-027377f03e54"
+      },
+      {
+        "id": "7271bcf9-b60e-46be-8125-2ff4347dd9f1",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-09T17:01:17.846Z",
+        "updated_at": "2023-08-09T17:08:15.571Z",
+        "patient_id": "83c61a81-9f13-47b5-8d33-20173082944d"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "e13d5a1c-222e-443a-8fc4-12e25f2ce2f1",
+        "record": "Patient history",
+        "created_at": "2023-08-09T22:43:17.169Z",
+        "updated_at": "2023-08-10T01:11:28.289Z",
+        "patient_id": "f89187dd-dd76-4489-b31b-027377f03e54"
+      },
+      {
+        "id": "c9a7d803-a311-4efb-a3e1-395028a18e95",
+        "record": "Lab test results",
+        "created_at": "2023-08-10T00:21:26.555Z",
+        "updated_at": "2023-08-10T01:40:57.160Z",
+        "patient_id": "d170ccb5-b2b8-4285-92c7-a3fdbadc44ed"
+      },
+      {
+        "id": "a9b0885f-ba6e-4fc6-9d25-c44d72a887fe",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-10T05:52:30.822Z",
+        "updated_at": "2023-08-10T09:06:06.868Z",
+        "patient_id": "025e84d9-41d6-43cb-acc3-0b718a9ceeb2"
+      },
+      {
+        "id": "d6239343-8ddc-41f7-bfb8-1f9f6e6969bd",
+        "record": "Treatment plan",
+        "created_at": "2023-08-09T16:37:35.690Z",
+        "updated_at": "2023-08-10T05:37:06.817Z",
+        "patient_id": "025e84d9-41d6-43cb-acc3-0b718a9ceeb2"
+      },
+      {
+        "id": "a7c78ad7-154c-431c-9885-5e35787c8063",
+        "record": "Surgical notes",
+        "created_at": "2023-08-09T20:44:59.327Z",
+        "updated_at": "2023-08-10T00:14:00.580Z",
+        "patient_id": "77fc9105-3c1f-445c-b1e1-ac94b1539650"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "9ee473c5-6c60-4dab-8cd4-0a5c1f9ace53",
+        "result": "Blood test",
+        "created_at": "2023-08-09T16:11:06.373Z",
+        "updated_at": "2023-08-09T23:16:05.794Z",
+        "patient_id": "d170ccb5-b2b8-4285-92c7-a3fdbadc44ed"
+      },
+      {
+        "id": "832397e1-4cc0-4052-af9b-8f0b7196a43a",
+        "result": "Urine analysis",
+        "created_at": "2023-08-09T13:02:56.686Z",
+        "updated_at": "2023-08-10T09:59:17.005Z",
+        "patient_id": "83c61a81-9f13-47b5-8d33-20173082944d"
+      },
+      {
+        "id": "f4c71aa7-9a44-4fdf-8aa3-cc0b753ec32e",
+        "result": "X-ray report",
+        "created_at": "2023-08-10T01:42:41.605Z",
+        "updated_at": "2023-08-10T07:33:30.440Z",
+        "patient_id": "025e84d9-41d6-43cb-acc3-0b718a9ceeb2"
+      },
+      {
+        "id": "c05aadbf-6b64-462e-9bac-05bec2599071",
+        "result": "MRI scan",
+        "created_at": "2023-08-09T16:19:43.103Z",
+        "updated_at": "2023-08-10T05:20:52.911Z",
+        "patient_id": "77fc9105-3c1f-445c-b1e1-ac94b1539650"
+      },
+      {
+        "id": "53d2357d-0568-4428-887e-fd122a4bf3ab",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-09T13:30:17.834Z",
+        "updated_at": "2023-08-10T00:56:13.078Z",
+        "patient_id": "025e84d9-41d6-43cb-acc3-0b718a9ceeb2"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "ea10128a-ebd8-4214-a85e-bc572efa1f94",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P12345",
+        "created_at": "2023-08-09T19:39:36.180Z",
+        "updated_at": "2023-08-10T05:11:51.135Z",
+        "patient_id": "83c61a81-9f13-47b5-8d33-20173082944d"
+      },
+      {
+        "id": "88529433-a8b6-4d95-a7ec-7e3915d3429f",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "I67890",
+        "created_at": "2023-08-10T02:21:10.992Z",
+        "updated_at": "2023-08-09T20:13:45.070Z",
+        "patient_id": "77fc9105-3c1f-445c-b1e1-ac94b1539650"
+      },
+      {
+        "id": "0d8eb66c-6a12-4778-ae67-3113410cb14a",
+        "insurance_provider": "123 Insure",
+        "policy_number": "M54321",
+        "created_at": "2023-08-09T13:16:50.704Z",
+        "updated_at": "2023-08-10T04:53:03.660Z",
+        "patient_id": "77fc9105-3c1f-445c-b1e1-ac94b1539650"
+      },
+      {
+        "id": "c0b44434-711d-4f0f-9b1f-11ce867d9d5e",
+        "insurance_provider": "SecureCare",
+        "policy_number": "S09876",
+        "created_at": "2023-08-09T22:16:40.368Z",
+        "updated_at": "2023-08-10T00:49:03.930Z",
+        "patient_id": "f89187dd-dd76-4489-b31b-027377f03e54"
+      },
+      {
+        "id": "ea2b2722-0084-49ef-9b85-4156c90b7d61",
+        "insurance_provider": "Guardian Health",
+        "policy_number": "G13579",
+        "created_at": "2023-08-09T13:46:50.129Z",
+        "updated_at": "2023-08-10T06:21:23.707Z",
+        "patient_id": "f89187dd-dd76-4489-b31b-027377f03e54"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7b029cb1-9988-4d18-965d-490f9de38de1",
+        "email": "Frederik_Lindgren31@yahoo.com",
+        "firstName": "Abe",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca2d7c00-fc39-4795-8c8d-94a1d43a2b7d",
+        "email": "Lisa87@hotmail.com",
+        "firstName": "Jennyfer",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85614621",
+        "tenantId": null
+      },
+      {
+        "reference": "248334c6-a36f-4243-968d-e4378e2f83ed",
+        "email": "Jerrod95@hotmail.com",
+        "firstName": "Verna",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/134.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4eab28e0-80c5-41d6-8c91-2830a1c20d5f",
+        "email": "Samir11@hotmail.com",
+        "firstName": "Thad",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/347.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6d7457b-0f9e-4f34-87d7-ed262036f860",
+        "email": "Hosea_Hahn13@gmail.com",
+        "firstName": "Alfonso",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "2abd0fda-6bfb-4de4-a542-c61917b79f37",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T09:45:57.442Z",
+        "updated_at": "2023-08-09T14:02:54.280Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90f8202e-0df4-4996-aaac-086130aeabc0",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T02:19:21.745Z",
+        "updated_at": "2023-08-09T20:50:05.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92653f22-39cd-41e8-9847-3b56e5ded2f2",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T22:12:40.549Z",
+        "updated_at": "2023-08-10T01:05:46.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e05c33ef-9879-46e2-aea0-305d534aca97",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T04:11:55.239Z",
+        "updated_at": "2023-08-10T01:50:04.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96deb7ae-9257-43db-81ff-f69eaefc6b22",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T20:36:50.078Z",
+        "updated_at": "2023-08-10T09:28:25.440Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "7c2c3675-43ab-477c-b32e-dcd031b61d51",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-09T19:52:53.894Z",
+        "updated_at": "2023-08-10T06:36:01.565Z",
+        "patient_id": "2abd0fda-6bfb-4de4-a542-c61917b79f37"
+      },
+      {
+        "id": "89a7aac8-ad1b-4fef-913f-6b7ac45ebcee",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-09T23:50:10.861Z",
+        "updated_at": "2023-08-09T22:22:36.276Z",
+        "patient_id": "90f8202e-0df4-4996-aaac-086130aeabc0"
+      },
+      {
+        "id": "6b9d6f58-8fe1-427f-b59c-5cfb177cdbd4",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-10T00:57:36.051Z",
+        "updated_at": "2023-08-10T09:17:00.326Z",
+        "patient_id": "96deb7ae-9257-43db-81ff-f69eaefc6b22"
+      },
+      {
+        "id": "fe725a2e-8d30-4a14-9ca3-4bf87d229857",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-09T23:16:01.599Z",
+        "updated_at": "2023-08-10T10:17:29.485Z",
+        "patient_id": "90f8202e-0df4-4996-aaac-086130aeabc0"
+      },
+      {
+        "id": "9b21ee34-fed9-437d-86f5-84a7c5e9173e",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-10T02:08:30.943Z",
+        "updated_at": "2023-08-10T08:53:20.446Z",
+        "patient_id": "2abd0fda-6bfb-4de4-a542-c61917b79f37"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "a5902af4-4376-42bb-b0c2-818d351517c8",
+        "record": "Patient history",
+        "created_at": "2023-08-10T09:37:48.592Z",
+        "updated_at": "2023-08-09T12:43:50.166Z",
+        "patient_id": "92653f22-39cd-41e8-9847-3b56e5ded2f2"
+      },
+      {
+        "id": "6095e3c8-eab4-456d-9b50-0136de253723",
+        "record": "Lab test results",
+        "created_at": "2023-08-09T20:05:24.082Z",
+        "updated_at": "2023-08-10T09:49:08.489Z",
+        "patient_id": "2abd0fda-6bfb-4de4-a542-c61917b79f37"
+      },
+      {
+        "id": "d0a6c750-8a04-4a9c-ac49-0856b1f26bc9",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-09T20:03:46.010Z",
+        "updated_at": "2023-08-10T11:02:38.445Z",
+        "patient_id": "2abd0fda-6bfb-4de4-a542-c61917b79f37"
+      },
+      {
+        "id": "50d6613d-a83b-4386-af09-2bd030673f8f",
+        "record": "Treatment plan",
+        "created_at": "2023-08-09T18:48:07.300Z",
+        "updated_at": "2023-08-10T04:14:21.580Z",
+        "patient_id": "92653f22-39cd-41e8-9847-3b56e5ded2f2"
+      },
+      {
+        "id": "b9c78c5c-04e9-451c-8dda-49890247fd82",
+        "record": "Surgical notes",
+        "created_at": "2023-08-09T13:08:51.598Z",
+        "updated_at": "2023-08-10T01:50:59.369Z",
+        "patient_id": "92653f22-39cd-41e8-9847-3b56e5ded2f2"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "31cb1b37-3d71-47b9-a5be-1c5a81340b64",
+        "result": "Blood test",
+        "created_at": "2023-08-09T16:41:28.823Z",
+        "updated_at": "2023-08-10T04:39:28.029Z",
+        "patient_id": "92653f22-39cd-41e8-9847-3b56e5ded2f2"
+      },
+      {
+        "id": "d1907505-8ffd-408c-8280-1562d4e793f4",
+        "result": "Urine analysis",
+        "created_at": "2023-08-09T22:12:00.080Z",
+        "updated_at": "2023-08-10T00:57:16.812Z",
+        "patient_id": "92653f22-39cd-41e8-9847-3b56e5ded2f2"
+      },
+      {
+        "id": "1ae36924-28d4-4e44-a9f0-3e4bd6b8b1ee",
+        "result": "X-ray report",
+        "created_at": "2023-08-09T15:03:20.211Z",
+        "updated_at": "2023-08-09T19:15:40.393Z",
+        "patient_id": "e05c33ef-9879-46e2-aea0-305d534aca97"
+      },
+      {
+        "id": "06e79855-9a42-4aa9-99a2-61f47a90e8bb",
+        "result": "MRI scan",
+        "created_at": "2023-08-10T09:22:57.318Z",
+        "updated_at": "2023-08-09T17:45:12.746Z",
+        "patient_id": "96deb7ae-9257-43db-81ff-f69eaefc6b22"
+      },
+      {
+        "id": "0b262b8a-57fe-441f-8433-e80f84d70709",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-10T01:57:33.629Z",
+        "updated_at": "2023-08-09T19:08:44.008Z",
+        "patient_id": "96deb7ae-9257-43db-81ff-f69eaefc6b22"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "5e98bd65-13f6-4513-801c-11e81766bd46",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-09T19:20:32.597Z",
+        "updated_at": "2023-08-10T10:30:34.635Z",
+        "patient_id": "2abd0fda-6bfb-4de4-a542-c61917b79f37"
+      },
+      {
+        "id": "eb315781-dab2-4a66-95ab-6d489de0e19d",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "created_at": "2023-08-10T03:36:15.363Z",
+        "updated_at": "2023-08-09T12:32:13.767Z",
+        "patient_id": "90f8202e-0df4-4996-aaac-086130aeabc0"
+      },
+      {
+        "id": "38a6c3c2-e6f1-4463-b0db-5ee04f1de385",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-10T05:21:56.946Z",
+        "updated_at": "2023-08-09T22:11:47.628Z",
+        "patient_id": "e05c33ef-9879-46e2-aea0-305d534aca97"
+      },
+      {
+        "id": "7d81cb8a-37a8-4216-af0d-204ec24ba83f",
+        "insurance_provider": "Sunrise Healthcare",
+        "policy_number": "321654987",
+        "created_at": "2023-08-10T08:11:58.554Z",
+        "updated_at": "2023-08-09T23:58:09.907Z",
+        "patient_id": "e05c33ef-9879-46e2-aea0-305d534aca97"
+      },
+      {
+        "id": "52fceeb0-f9b3-4d0f-bcb1-c7bc7604f3dc",
+        "insurance_provider": "National Assurance",
+        "policy_number": "789123456",
+        "created_at": "2023-08-10T11:57:48.951Z",
+        "updated_at": "2023-08-09T18:49:34.837Z",
+        "patient_id": "90f8202e-0df4-4996-aaac-086130aeabc0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ad9e2ff-55f7-4cbb-824e-80b4c5d03e43",
+        "email": "Samson_Rosenbaum@yahoo.com",
+        "firstName": "Esther",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78169581",
+        "tenantId": null
+      },
+      {
+        "reference": "27d652b4-c1da-45fe-b3ec-1e5ec664c342",
+        "email": "Chance_Waelchi45@gmail.com",
+        "firstName": "Una",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/836.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bf8dce4-65c0-4a81-9451-8abf00d0d7f9",
+        "email": "Elbert5@hotmail.com",
+        "firstName": "Deion",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/795.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2154047c-bb87-4309-8f57-47be0e320858",
+        "email": "Andy_Kautzer42@yahoo.com",
+        "firstName": "Lera",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1165.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36afc034-1812-43b0-ac98-22caca1e733d",
+        "email": "Chandler_Aufderhar81@hotmail.com",
+        "firstName": "Scottie",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/162.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "815d8da2-68fe-4cb3-848a-d1949b837066",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T00:40:30.278Z",
+        "updated_at": "2023-08-09T17:32:11.666Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1885890a-955c-40f9-a975-24588faf250f",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T04:36:12.921Z",
+        "updated_at": "2023-08-09T12:33:31.273Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bfd85ea-10c8-4f86-a812-2bb217226db1",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T18:46:04.837Z",
+        "updated_at": "2023-08-09T12:45:34.196Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26a33c3c-ac6e-46e5-8fc2-9751698b1226",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T07:59:56.827Z",
+        "updated_at": "2023-08-09T16:03:40.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5370b85-4047-40c6-bf99-1f2c84f91bcb",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T12:57:57.543Z",
+        "updated_at": "2023-08-10T11:44:42.241Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "14a8b18a-c5c2-4506-9529-da8334f1b4c5",
+        "medication": "Aspirin",
+        "dosage": "10mg",
+        "created_at": "2023-08-10T00:38:31.057Z",
+        "updated_at": "2023-08-09T22:02:00.056Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      },
+      {
+        "id": "c409e2f0-84e0-4308-893f-dac46bce4d11",
+        "medication": "Amoxicillin",
+        "dosage": "500mg",
+        "created_at": "2023-08-10T02:56:12.407Z",
+        "updated_at": "2023-08-09T12:59:41.437Z",
+        "patient_id": "26a33c3c-ac6e-46e5-8fc2-9751698b1226"
+      },
+      {
+        "id": "c89390bd-abb4-4110-abc8-43b3827ca4eb",
+        "medication": "Ibuprofen",
+        "dosage": "200mg",
+        "created_at": "2023-08-09T20:50:23.229Z",
+        "updated_at": "2023-08-09T17:20:30.264Z",
+        "patient_id": "26a33c3c-ac6e-46e5-8fc2-9751698b1226"
+      },
+      {
+        "id": "3101a2b2-92c4-4bf4-a6af-31705e820fe5",
+        "medication": "Lisinopril",
+        "dosage": "5mg",
+        "created_at": "2023-08-09T16:31:13.523Z",
+        "updated_at": "2023-08-09T18:55:35.605Z",
+        "patient_id": "26a33c3c-ac6e-46e5-8fc2-9751698b1226"
+      },
+      {
+        "id": "2aab40e0-6f6c-4c99-8620-2669acd1c84c",
+        "medication": "Metformin",
+        "dosage": "1000mg",
+        "created_at": "2023-08-10T10:00:26.926Z",
+        "updated_at": "2023-08-10T00:21:02.044Z",
+        "patient_id": "815d8da2-68fe-4cb3-848a-d1949b837066"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "45fd7351-0f05-472f-9a0f-1f30812afcf6",
+        "record": "Patient history",
+        "created_at": "2023-08-10T01:19:42.342Z",
+        "updated_at": "2023-08-09T15:35:42.274Z",
+        "patient_id": "815d8da2-68fe-4cb3-848a-d1949b837066"
+      },
+      {
+        "id": "14487a86-9eef-41e1-b55c-34df289c9ae8",
+        "record": "Lab test results",
+        "created_at": "2023-08-10T08:58:47.569Z",
+        "updated_at": "2023-08-09T16:47:06.975Z",
+        "patient_id": "a5370b85-4047-40c6-bf99-1f2c84f91bcb"
+      },
+      {
+        "id": "97375d46-568b-4e56-8c11-8d31de180ed4",
+        "record": "Diagnosis report",
+        "created_at": "2023-08-10T12:04:31.393Z",
+        "updated_at": "2023-08-09T16:33:34.089Z",
+        "patient_id": "815d8da2-68fe-4cb3-848a-d1949b837066"
+      },
+      {
+        "id": "49b2de0c-2dab-43ba-9db0-ca8037016e1f",
+        "record": "Treatment plan",
+        "created_at": "2023-08-09T21:38:01.746Z",
+        "updated_at": "2023-08-09T19:42:40.374Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      },
+      {
+        "id": "0775768e-d880-45f8-8b28-c937c7cb110f",
+        "record": "Surgical notes",
+        "created_at": "2023-08-10T11:31:13.803Z",
+        "updated_at": "2023-08-09T21:50:52.676Z",
+        "patient_id": "1885890a-955c-40f9-a975-24588faf250f"
+      }
+    ],
+    "laboratory_result": [
+      {
+        "id": "d6398b92-2f7f-4549-aca5-6e29dac06d21",
+        "result": "Blood test",
+        "created_at": "2023-08-10T05:40:11.799Z",
+        "updated_at": "2023-08-09T19:01:55.672Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      },
+      {
+        "id": "22a854ac-cac5-410a-8abe-114ad2af63a4",
+        "result": "Urine analysis",
+        "created_at": "2023-08-10T05:41:48.457Z",
+        "updated_at": "2023-08-10T01:12:05.035Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      },
+      {
+        "id": "b873300e-9727-4166-abce-3353f95c93fd",
+        "result": "X-ray report",
+        "created_at": "2023-08-10T05:01:40.673Z",
+        "updated_at": "2023-08-09T14:15:35.560Z",
+        "patient_id": "a5370b85-4047-40c6-bf99-1f2c84f91bcb"
+      },
+      {
+        "id": "7eaba019-d96d-4b8e-8bc7-d8764dfdbf99",
+        "result": "MRI scan",
+        "created_at": "2023-08-09T22:58:08.578Z",
+        "updated_at": "2023-08-10T05:13:00.953Z",
+        "patient_id": "815d8da2-68fe-4cb3-848a-d1949b837066"
+      },
+      {
+        "id": "041fe2d1-024a-4870-a437-fa34deda9967",
+        "result": "Biopsy findings",
+        "created_at": "2023-08-09T17:56:59.567Z",
+        "updated_at": "2023-08-09T20:23:36.662Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      }
+    ],
+    "insurance_detail": [
+      {
+        "id": "96e228dc-82b6-4a83-8257-d7cbc102e09f",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "created_at": "2023-08-10T04:42:44.039Z",
+        "updated_at": "2023-08-10T06:12:11.706Z",
+        "patient_id": "a5370b85-4047-40c6-bf99-1f2c84f91bcb"
+      },
+      {
+        "id": "33ad185f-5367-41a7-9add-5f00b387018e",
+        "insurance_provider": "XYZ Healthcare",
+        "policy_number": "987654321",
+        "created_at": "2023-08-09T22:56:26.323Z",
+        "updated_at": "2023-08-10T04:01:24.540Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      },
+      {
+        "id": "147dc9b1-2a25-4fad-b537-50d63b1ce2df",
+        "insurance_provider": "City Insurance",
+        "policy_number": "456789123",
+        "created_at": "2023-08-10T03:16:53.984Z",
+        "updated_at": "2023-08-10T11:37:16.991Z",
+        "patient_id": "26a33c3c-ac6e-46e5-8fc2-9751698b1226"
+      },
+      {
+        "id": "7fb4708b-428e-4a5b-8bc2-f8dcba3609f9",
+        "insurance_provider": "Sunrise Health",
+        "policy_number": "321654987",
+        "created_at": "2023-08-10T11:57:05.133Z",
+        "updated_at": "2023-08-09T15:36:48.245Z",
+        "patient_id": "a5370b85-4047-40c6-bf99-1f2c84f91bcb"
+      },
+      {
+        "id": "cd227cd4-f450-4c18-a471-6077b355805a",
+        "insurance_provider": "National Assurance",
+        "policy_number": "789123456",
+        "created_at": "2023-08-09T16:51:48.893Z",
+        "updated_at": "2023-08-10T09:40:47.546Z",
+        "patient_id": "6bfd85ea-10c8-4f86-a812-2bb217226db1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0110160c-e5eb-465d-87d0-0f7ad449e82e",
+        "email": "Griffin.Blanda18@hotmail.com",
+        "firstName": "Flavio",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ee75954a-b1ce-4325-81a7-3a2ca68a6293",
+        "email": "Tiana51@gmail.com",
+        "firstName": "Johnathon",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1183.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67fe1050-08ae-46a9-a71f-acc454b857b4",
+        "email": "Terrill3@gmail.com",
+        "firstName": "Kaitlin",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5760830",
+        "tenantId": null
+      },
+      {
+        "reference": "c8b763aa-3352-46e9-8719-a795a6688116",
+        "email": "Justina_Spencer@hotmail.com",
+        "firstName": "Micaela",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/32.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ecb4ce8-fbfa-46b0-acf8-46d1b437552b",
+        "email": "Jairo3@hotmail.com",
+        "firstName": "Bernice",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31268285",
+        "tenantId": null
+      }
+    ]
+  }
+]
